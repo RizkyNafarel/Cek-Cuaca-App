@@ -53,6 +53,7 @@ app.get('/berita', async (req, res) => {
             nama: 'Rizky Nafarel Sidiq',
             judul: 'Laman Berita',
             berita: dataBerita.data,
+            gambar: dataBerita.data.images
         });
     } catch (error) {
         console.error(error);
